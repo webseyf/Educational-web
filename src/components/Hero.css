@@ -1,0 +1,71 @@
+body{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+padding: 0.1rem 5rem;
+background-image: url("bg.webp");
+height: 100vh;
+color: aliceblue;
+background-repeat: no-repeat;
+background-position: bottom;
+background-position-y: top;
+background-size: cover;
+background-position-x: left;
+}
+.top{
+  padding-bottom: 6rem;
+}
+.academ{
+  color: white;
+  font-weight: 900;
+  font-size: 44px;
+  margin-bottom: 0px;
+margin-top: 15px;
+}
+.online{
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.middle{
+  width: 60%;
+}
+.welcome{
+  font-size: 22px;
+
+}
+.best{
+  font-size: 46px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  font-weight: 900;
+}
+
+.btn{
+  padding: 12px 18px;
+  border: 0px;
+  text-decoration: none;
+  margin: 23px 17px;
+  border-radius: 23px;
+  font-size: 17px;
+}
+.start{
+  background-color: #1EB2A6;
+  color: white;
+}
+.start:hover{
+  background-color: white;
+  color: black;
+}
+.view{
+  background-color: white;
+  color: black;
+}
+.view:hover{
+  background-color: #1EB2A6;
+  color: white;
+}
