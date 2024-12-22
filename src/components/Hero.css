@@ -5,7 +5,7 @@ body{
 }
 .container{
 padding: 0.1rem 5rem;
-background-image: url("bg.webp");
+background-image: url("/bg.webp");
 height: 100vh;
 color: aliceblue;
 background-repeat: no-repeat;
@@ -13,9 +13,13 @@ background-position: bottom;
 background-position-y: top;
 background-size: cover;
 background-position-x: left;
+background-attachment: fixed;
 }
 .top{
-  padding-bottom: 6rem;
+  padding-bottom: 1rem;
+}
+.nav{
+  margin-bottom: 7rem;
 }
 .academ{
   color: white;

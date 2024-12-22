@@ -1,0 +1,38 @@
+ .lists{
+margin-left: -32px;
+height: 75px;
+background-image: linear-gradient(90deg, #BBD7DD, transparent);
+display: flex;
+z-index: 11;
+max-width: 1250px;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+ul{
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  background-color: transparent;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 18px;
+}
+li{
+  color: white;
+  font-weight: 700;
+
+}
+button{
+  padding: 24px 70px;
+  font-size: 23px;
+border: none;
+background-color: #1EB2A6;
+color: white;
+clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+

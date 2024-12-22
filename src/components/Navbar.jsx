@@ -1,12 +1,15 @@
 
-
+import { useState } from "react";
+import "./Navbar.css";
 export default function (){
+
 
   return (
     <>
-    <div className="conatainer">
-     {/* <div >
-            <ul>
+    <div className="conatain">
+     <div className="lists">
+            <div>
+              <ul>
               <li className="">Home</li>
               <li className="">All Courses</li>
               <li className="">About</li>
@@ -14,10 +17,12 @@ export default function (){
               <li className="">Journal</li>
               <li className="">Conatct</li>
             </ul>
+            </div>
+           <div className="button">
+            <button>Get Certificate</button>
+           </div>
      </div>
-     <div >
-      <button>Get Certificate</button>
-      </div> */}
+    
     </div>
     </>
   )

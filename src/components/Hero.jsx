@@ -11,7 +11,7 @@ export default function (){
         <p className="academ">ACADEMIA</p>
         <p className="online">ONLINE EDUCATION & LEARNING</p>
         </div>
-    <div><Navbar/></div>
+    <div className="nav"><Navbar/></div>
         <div className="middle">
         <p className="welcome">WELCOME TO ACADEMIA</p>
         <h1 className="best">BEST EDUCATIONAL EXPERTISE</h1>
